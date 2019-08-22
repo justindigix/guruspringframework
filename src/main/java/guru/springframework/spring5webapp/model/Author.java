@@ -20,6 +20,7 @@ public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "author_id")
     private Long id;
 
     private String firstName;
